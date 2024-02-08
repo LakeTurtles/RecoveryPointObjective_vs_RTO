@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional RPO Example</title>
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 20px;
+        }
+
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .card {
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin-bottom: 20px;
+          padding: 20px;
+        }
+
+        h1 {
+          margin: 0;
+        }
+
+        h2 {
+          color: #333;
+        }
+
+        p {
+          color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Recovery Point Objective (RPO) Example</h1>
+    <p>Understanding RPO in a Financial Company Scenario</p>
+</header>
+
+<div class="card">
+    <h2>Scenario: Recovery Point Objective (RPO)</h2>
+    <p>Imagine a financial company processing online transactions with an RPO of 15 minutes.</p>
+</div>
+
+<div class="card">
+    <h2>Normal Operations</h2>
+    <p>The company constantly processes transactions and updates its database.</p>
+</div>
+
+<div class="card">
+    <h2>Data Backup Frequency</h2>
+    <p>Data backups or replication occur every 15 minutes to meet the RPO requirements.</p>
+</div>
+
+<div class="card">
+    <h2>Incident Occurs</h2>
+    <p>A hardware failure causes the primary database to become unavailable.</p>
+</div>
+
+<div class="card">
+    <h2>Recovery Process Initiates</h2>
+    <p>The company restores data from the most recent backup taken before the incident.</p>
+</div>
+
+<div class="card">
+    <h2>Data Loss Mitigation</h2>
+    <p>The recovery process ensures that the company loses, at most, the transactions from the last 15 minutes.</p>
+</div>
+
+</body>
+</html>
